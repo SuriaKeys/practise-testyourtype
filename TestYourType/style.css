@@ -200,11 +200,11 @@ li:not(:first-child) span {
 .menu a {
     display: inline-block;
     padding: 10px 15px; 
-    
+
     background-color: #2393dd; 
     color: #fff; 
     text-decoration: none; 
-    border-radius: 15px; 
+    border-radius: 30px; 
     transition: background-color 0.3s ease; 
 }
 

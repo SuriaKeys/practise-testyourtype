@@ -16,7 +16,8 @@
 }
 h2{
     text-align: center;
-   
+
+
 }
 .logo {
     position: fixed;
@@ -26,4 +27,24 @@ h2{
     font-weight: bold;
     color: rgb(238, 238, 238);
     text-transform: uppercase;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    margin: 0 10px; /* Відступ між іконками */
+}
+
+.social-icons a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007acc; /* Колір при наведенні */
 }
